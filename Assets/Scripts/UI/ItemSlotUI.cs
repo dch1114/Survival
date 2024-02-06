@@ -32,7 +32,7 @@ public class ItemSlotUI : MonoBehaviour
         icon.sprite = slot.item.icon;
         quatityText.text = slot.quantity > 1 ? slot.quantity.ToString() : string.Empty;
 
-        if (outline != null)
+        if(outline != null )
         {
             outline.enabled = equipped;
         }
@@ -49,4 +49,5 @@ public class ItemSlotUI : MonoBehaviour
     {
         Inventory.instance.SelectItem(index);
     }
+
 }

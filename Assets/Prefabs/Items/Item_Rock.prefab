@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7542720246334452274
+--- !u!1 &7137815744676996745
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3131628963180532240}
-  - component: {fileID: 925258498007075072}
-  - component: {fileID: 3724362825779518915}
-  - component: {fileID: 8913640994303760227}
+  - component: {fileID: 3318220725733422702}
+  - component: {fileID: 8620824948586005774}
+  - component: {fileID: 3626315442178962970}
+  - component: {fileID: 8600322900361088996}
   m_Layer: 7
   m_Name: Item_Rock
   m_TagString: Untagged
@@ -19,29 +19,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3131628963180532240
+--- !u!4 &3318220725733422702
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7542720246334452274}
+  m_GameObject: {fileID: 7137815744676996745}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.474, y: 0.804, z: 0}
+  m_LocalPosition: {x: 12.876, y: 0.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3366129868956072569}
+  - {fileID: 6359222513623094593}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &925258498007075072
+--- !u!54 &8620824948586005774
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7542720246334452274}
+  m_GameObject: {fileID: 7137815744676996745}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -62,13 +62,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &3724362825779518915
+--- !u!65 &3626315442178962970
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7542720246334452274}
+  m_GameObject: {fileID: 7137815744676996745}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -81,28 +81,28 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.3, z: 0.3}
-  m_Center: {x: 0, y: 0.05, z: 0}
---- !u!114 &8913640994303760227
+  m_Size: {x: 0.8, y: 0.7, z: 0.6}
+  m_Center: {x: 0, y: 0.1, z: 0}
+--- !u!114 &8600322900361088996
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7542720246334452274}
+  m_GameObject: {fileID: 7137815744676996745}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82eea82751d5b1e4aa31d333809cd1b5, type: 3}
+  m_Script: {fileID: 11500000, guid: c50e8fac242360a449b3468f3e117901, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: f730884bb1b7e9e40be9a588e53e558b, type: 2}
---- !u!1001 &8572318416408482047
+  item: {fileID: 11400000, guid: 01ece35e30401bf4fb38ce38f8c4ea61, type: 2}
+--- !u!1001 &110262569910215
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3131628963180532240}
+    m_TransformParent: {fileID: 3318220725733422702}
     m_Modifications:
     - target: {fileID: 6359112800851457702, guid: c0695e50372965840badd7b84ed57617, type: 3}
       propertyPath: m_Name
@@ -166,8 +166,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0695e50372965840badd7b84ed57617, type: 3}
---- !u!4 &3366129868956072569 stripped
+--- !u!4 &6359222513623094593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6359112800851487366, guid: c0695e50372965840badd7b84ed57617, type: 3}
-  m_PrefabInstance: {fileID: 8572318416408482047}
+  m_PrefabInstance: {fileID: 110262569910215}
   m_PrefabAsset: {fileID: 0}

@@ -9,15 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e95b55684bf7898479c8b197d7cbaac8, type: 3}
+  m_Script: {fileID: 11500000, guid: db971e228a7fa7545bec545486923d35, type: 3}
   m_Name: Axe
   m_EditorClassIdentifier: 
   displayName: "\uB3C4\uB07C"
-  description: "\uC790\uC6D0\uC744 \uCC44\uCDE8\uD560\uB54C \uC0AC\uC6A9\uD569\uB2C8\uB2E4."
+  description: "\uC790\uC6D0\uC744 \uCC44\uCDE8\uD560\uB54C \uC0AC\uC6A9\uD569\uB2C8\uB2E4"
   type: 1
-  icon: {fileID: 21300000, guid: a979640ee8b93b345926274c7f2bb0e2, type: 3}
-  dropPrefab: {fileID: 3884737005059570465, guid: bc7ed93e2d63da84f84dd5e0c74d2cb2, type: 3}
+  icon: {fileID: 21300000, guid: 06e8d836c76eb494db7ab3784ffcb0eb, type: 3}
+  dropPrefab: {fileID: 4478279912761487380, guid: 0bcd4e67c444c69468e34725161a18cf, type: 3}
   canStack: 0
   maxStackAmount: 0
   consumables: []
-  equipPrefab: {fileID: 2952285509161755591, guid: 56b80e0c7fd80894c81ea0bb8b8475b2, type: 3}
+  equipPrefab: {fileID: 6183924415104097468, guid: d8085ef244f66a244a05404b5ae870a1, type: 3}

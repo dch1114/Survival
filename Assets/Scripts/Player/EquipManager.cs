@@ -11,7 +11,6 @@ public class EquipManager : MonoBehaviour
     private PlayerController controller;
     private PlayerConditions conditions;
 
-    // singleton
     public static EquipManager instance;
 
     private void Awake()
@@ -23,12 +22,12 @@ public class EquipManager : MonoBehaviour
 
     public void OnAttackInput(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Performed && curEquip != null && controller.canLook)
+        if(context.phase == InputActionPhase.Performed && curEquip != null && controller.canLook)
         {
             curEquip.OnAttackInput(conditions);
         }
     }
-
+    
     public void EquipNew(ItemData item)
     {
         UnEquip();
@@ -37,10 +36,11 @@ public class EquipManager : MonoBehaviour
 
     public void UnEquip()
     {
-        if (curEquip != null)
+        if(curEquip != null)
         {
             Destroy(curEquip.gameObject);
             curEquip = null;
         }
     }
+
 }

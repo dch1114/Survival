@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public enum ItemType
 {
     Resource,
@@ -22,7 +23,8 @@ public class ItemDataConsumable
     public float value;
 }
 
-[CreateAssetMenu(fileName = "Item", menuName = "New Item")]
+[CreateAssetMenu(fileName ="Item", menuName = "New Item")]
+
 public class ItemData : ScriptableObject
 {
     [Header("Info")]
@@ -41,5 +43,4 @@ public class ItemData : ScriptableObject
 
     [Header("Equip")]
     public GameObject equipPrefab;
-
 }

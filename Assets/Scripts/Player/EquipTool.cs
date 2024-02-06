@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static Unity.VisualScripting.Member;
 
 public class EquipTool : Equip
 {
@@ -29,7 +28,7 @@ public class EquipTool : Equip
 
     public override void OnAttackInput(PlayerConditions conditions)
     {
-        if (!attacking)
+        if(!attacking)
         {
             if (conditions.UseStamina(useStamina))
             {
@@ -50,11 +49,11 @@ public class EquipTool : Equip
         Ray ray = camera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, attackDistance))
+        if(Physics.Raycast(ray, out hit, attackDistance)) 
         {
-            if (doesGatherResources && hit.collider.TryGetComponent(out Resource resouce))
+            if (doesGatherResources && hit.collider.TryGetComponent(out Resource resource))
             {
-                resouce.Gather(hit.point, hit.normal);
+                resource.Gather(hit.point, hit.normal);
             }
 
             if (doesDealDamage && hit.collider.TryGetComponent(out IDamagable damageable))
