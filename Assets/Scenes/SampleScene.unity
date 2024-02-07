@@ -508,9 +508,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 127289287}
-  - component: {fileID: 127289286}
-  - component: {fileID: 127289285}
   - component: {fileID: 127289284}
+  - component: {fileID: 127289285}
+  - component: {fileID: 127289286}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -533,7 +533,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -564,7 +564,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ff94d5cc0af7b4146894c4850047c72e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
@@ -658,7 +658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127289283}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.8, y: 2.9, z: -4.9}
+  m_LocalPosition: {x: -20.2, y: 2.9, z: -4.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1149,7 +1149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6684317490783831274, guid: 302f9270c40ea514c921b423eea7347c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6684317490783831274, guid: 302f9270c40ea514c921b423eea7347c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4756,9 +4756,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1542281993}
-  - component: {fileID: 1542281994}
   - component: {fileID: 1542281996}
   - component: {fileID: 1542281995}
+  - component: {fileID: 1542281994}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -6411,16 +6411,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2064512513}
-  - component: {fileID: 2064512515}
   - component: {fileID: 2064512512}
   - component: {fileID: 2064512511}
   - component: {fileID: 2064512514}
+  - component: {fileID: 2064512515}
   - component: {fileID: 2064512516}
   - component: {fileID: 2064512517}
   - component: {fileID: 2064512518}
   - component: {fileID: 2064512519}
-  - component: {fileID: 2064512521}
   - component: {fileID: 2064512520}
+  - component: {fileID: 2064512521}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
