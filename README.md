@@ -30,7 +30,7 @@ Unity Editor Version 2022.3.2f1
 IDE: Visual Studio 2022
 
 ## 게임 플레이
----
+
 #### 플레이어 생성 / 아이템 착용 / 플레이어 상태
 <img src = "https://github.com/dch1114/Survival/assets/129824716/72186509-30f1-46e3-8cf7-142730e36df0" width="400" height="300"/>
 
