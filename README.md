@@ -31,4 +31,17 @@ IDE: Visual Studio 2022
 
 ## 게임 플레이
 ---
-####
+#### 플레이어 생성 / 아이템 착용 / 플레이어 상태
+<img src = "https://github.com/dch1114/Survival/assets/129824716/72186509-30f1-46e3-8cf7-142730e36df0" width="400" height="300"/>
+
+---
+#### 인벤토리
+<img src = "https://github.com/dch1114/Survival/assets/129824716/2d5a203a-b069-44a2-9474-97982e67e970" width="400" height="300"/>
+
+---
+#### 밤 낮 구현
+<img src = "https://github.com/dch1114/Survival/assets/129824716/41a74467-a0c4-465c-966b-ffd81abf6945" width="400" height="300"/>
+
+---
+#### NPC 몬스터 생성
+<img src = "https://github.com/dch1114/Survival/assets/129824716/4380f04d-f6a9-48d2-99ee-be0bc0e8ed14" width="400" height="300"/>
